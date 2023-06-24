@@ -89,13 +89,16 @@ const Home: React.FC = () => {
           <p>{currentDate.toDateString()}.</p>
         </div>
 
-        <div className='category'>
-        <h1>Tasks</h1>
-        </div>
 
         {/* Show ExploreContainer only if there are no tasks */}
         {!tasks.length && (
           <ExploreContainer />
+        )}
+
+        {taskColor.length && (
+          <div className='category'>
+          <h1>Tasks</h1>
+          </div>
         )}
 
         {tasks.map((task: Task) => (
