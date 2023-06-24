@@ -1,4 +1,4 @@
-## ToDO: Simple productivity app made with Ionic.
+# ToDO: Simple productivity app made with Ionic.
 
 
  <img src="https://i.imgur.com/9SAdfY7.jpg" width="320px">
