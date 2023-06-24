@@ -85,7 +85,8 @@ const Home: React.FC = () => {
             Hello,
           </IonTitle>
 
-          <p>Today date is {currentDate.toDateString()}.</p>
+          <h3>Today date is —</h3>
+          <p>{currentDate.toDateString()}.</p>
         </div>
 
         <div className='category'>
